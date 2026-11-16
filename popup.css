@@ -47,7 +47,14 @@ body {
   margin-bottom: 14px;
 }
 
-.brand img { border-radius: 9px; }
+.brand-mark {
+  flex: none;
+  fill: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  .brand-mark { fill: #fff; }
+}
 h1, h2 { margin: 0; }
 h1 { font-size: 18px; font-weight: 650; }
 
