@@ -12,7 +12,7 @@ This document outlines everything you need to submit **Eclyzer Hub** to the Chro
 | **Version**        | 1.0.0                                                        |
 | **Category**       | Productivity (or Developer Tools)                            |
 | **Language**       | English                                                      |
-| **Website**        | https://eclyzer.net                                          |
+| **Website**        | https://eclyzer.com                                          |
 
 ---
 
@@ -33,10 +33,10 @@ With one click, open:
 • Eclyzer.net — The main Eclyzer website
 • Eclyzer AI — AI-powered assistant
 • Eclyzer Markdown Studio — Write, preview, and read markdown files
-• GitHub — View source code and projects
+• Eclyzer Home Lab, Eclyzer API / Router, and Eclink
 
 Features:
-• Clean, modern dark interface
+• Light and dark themes that follow your browser preference
 • Zero permissions required — your data stays private
 • No tracking, no analytics, no ads
 • Lightweight — no frameworks, instant popup
@@ -97,7 +97,7 @@ These are optional but recommended for better store visibility.
 ## Privacy Policy
 
 - Use the contents of `PRIVACY.md` in the project root
-- Host the privacy policy at a public URL (e.g., on eclyzer.net or a GitHub gist)
+- Host the privacy policy at a public URL (e.g., on eclyzer.com or a GitHub gist)
 - Paste the URL in the Chrome Web Store Developer Dashboard
 
 ---

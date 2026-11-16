@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Eclyzer Hub",
-  "description": "Quick access to Eclyzer.net, Eclyzer AI, and Eclyzer tools.",
-  "version": "1.5.0",
+  "description": "Open eclyzer.com and Eclyzer services from your browser toolbar.",
+  "version": "1.6.0",
   "action": {
     "default_popup": "popup.html",
     "default_title": "Eclyzer Hub",

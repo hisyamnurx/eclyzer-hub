@@ -1,38 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=360">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Eclyzer Hub</title>
   <link rel="stylesheet" href="popup.css">
+  <script src="popup.js" defer></script>
 </head>
 <body>
-  <div class="popup-container">
-
-    <!-- Header -->
-    <header class="popup-header">
-      <div class="header-brand">
-        <img src="icons/icon-48.png" alt="Eclyzer" class="header-logo" width="36" height="36">
-        <div class="header-text">
-          <h1 class="header-title">Eclyzer Hub</h1>
-          <p class="header-subtitle">Quick access to Eclyzer tools</p>
-        </div>
-      </div>
-    </header>
-
-    <!-- Separator -->
-    <div class="separator"></div>
-
-    <!-- Dynamic content rendered by popup.js -->
-    <main id="popup-content" class="popup-body"></main>
-
-    <!-- Footer -->
-    <footer class="popup-footer">
-      <span class="footer-text">Eclyzer Hub v1.5.0</span>
-    </footer>
-
-  </div>
-
-  <script src="popup.js"></script>
+  <header class="brand">
+    <img src="icons/icon-48.png" width="36" height="36" alt="">
+    <h1>Eclyzer Hub</h1>
+  </header>
+  <main>
+    <div id="featured"></div>
+    <section aria-labelledby="tools-title">
+      <h2 id="tools-title">Aplikasi &amp; layanan</h2>
+      <ul id="tools"></ul>
+    </section>
+  </main>
+  <template id="shortcut">
+    <a class="shortcut" target="_blank" rel="noopener noreferrer">
+      <span class="shortcut-icon" aria-hidden="true"></span>
+      <span class="shortcut-copy">
+        <strong></strong>
+        <span class="shortcut-detail"></span>
+      </span>
+      <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6 18 18 6M8 6h10v10"/>
+      </svg>
+    </a>
+  </template>
 </body>
 </html>

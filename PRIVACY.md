@@ -1,6 +1,6 @@
 # Privacy Policy — Eclyzer Hub Browser Extension
 
-**Last updated:** June 1, 2026
+**Last updated:** November 16, 2026
 
 ---
 
@@ -63,10 +63,12 @@ Eclyzer Hub makes **no network requests**. The extension runs entirely offline. 
 
 The extension opens the following URLs when clicked by the user:
 
-- `https://eclyzer.net` — Eclyzer main website
-- `https://ai.eclyzer.net` — Eclyzer AI assistant
-- `https://eclyzer.net/markdown` — Eclyzer Markdown Studio tool
-- `https://github.com/hisyamnurx` — GitHub profile
+- `https://eclyzer.com` — Eclyzer main website
+- `https://ai.eclyzer.com` — Eclyzer AI assistant
+- `https://markdown.eclyzer.com/` — Eclyzer Markdown Studio tool
+- https://home.eclyzer.com/ — Eclyzer Home Lab
+- https://router.eclyzer.site/ — Eclyzer API / Router
+- https://eclink.eclyzer.com/ — Eclink
 
 These are official Eclyzer properties. The extension does not redirect to any other domains.
 
@@ -88,5 +90,5 @@ If this privacy policy is updated, the changes will be noted with a new "Last up
 
 If you have questions about this privacy policy, please contact:
 
-- Website: [https://eclyzer.net](https://eclyzer.net)
+- Website: [https://eclyzer.com](https://eclyzer.com)
 - GitHub: [https://github.com/hisyamnurx](https://github.com/hisyamnurx)

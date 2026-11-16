@@ -1,6 +1,6 @@
 # Eclyzer Hub — Browser Extension
 
-**Quick access to Eclyzer.net, Eclyzer AI, and Eclyzer tools from your browser toolbar.**
+**Quick access to Eclyzer.com, Eclyzer AI, and Eclyzer tools from your browser toolbar.**
 
 Eclyzer Hub is a lightweight Chromium-based browser extension (Manifest V3) that serves as the official launcher for the Eclyzer ecosystem. One click opens any Eclyzer service in a new tab — no login, no tracking, no permissions needed.
 
@@ -8,10 +8,12 @@ Eclyzer Hub is a lightweight Chromium-based browser extension (Manifest V3) that
 
 ## Features
 
-- 🌐 **Eclyzer.net** — Open the main website instantly
+- 🌐 **Eclyzer.com** — Open the main website instantly
 - ✦ **Eclyzer AI** — Launch the AI assistant
 - 📄 **Eclyzer Markdown Studio** — Write and preview markdown
-- ⌘ **GitHub** — View source code and projects
+- **Eclyzer Home Lab** — Check server and service status
+- **Eclyzer API / Router** — Access models through one API
+- **Eclink** — Manage AI agent profiles on Windows
 - 🔒 **Zero permissions** — No access to your tabs, history, or browsing data
 - ⚡ **Lightweight** — No frameworks, no dependencies, instant popup
 
@@ -23,7 +25,7 @@ Eclyzer Hub is a lightweight Chromium-based browser extension (Manifest V3) that
 Ekstensi-Browser-Eclyzer/
 ├── manifest.json          # Extension manifest (MV3)
 ├── popup.html             # Popup UI shell
-├── popup.css              # Styles (dark theme)
+├── popup.css              # Styles (light and dark themes)
 ├── popup.js               # Logic & link config
 ├── logo.png               # Original Eclyzer logo
 ├── README.md              # This file
@@ -63,44 +65,9 @@ Ekstensi-Browser-Eclyzer/
 
 ---
 
-## How to Edit Links / Add New Tools
+## Edit shortcuts
 
-All links are defined in a single config array at the top of `popup.js`:
-
-```js
-const ECLYZER_LINKS = [
-  {
-    id: "eclyzer-markdown-studio",
-    title: "Eclyzer Markdown Studio",
-    description: "Write and preview markdown",
-    url: "https://eclyzer.net/markdown",  // ← Change URL here
-    category: "tools",
-    icon: "document"
-  },
-  // Add more items here...
-];
-```
-
-### To change the Eclyzer Markdown Studio URL:
-
-Edit the `url` field for the `eclyzer-markdown-studio` entry in `popup.js`.
-
-### To add a new tool:
-
-Add a new object to the `ECLYZER_LINKS` array:
-
-```js
-{
-  id: "my-new-tool",
-  title: "My New Tool",
-  description: "Short description",
-  url: "https://eclyzer.net/tools/new-tool",
-  category: "tools",    // "main", "tools", or "links"
-  icon: "document"      // "globe", "sparkle", "document", "github", "message"
-}
-```
-
-After editing, reload the extension in `chrome://extensions` (click the refresh icon).
+Edit the `shortcuts` array in `popup.js`. Each entry has a title, detail, HTTPS URL, and icon. The first entry is featured at the top. Reload the extension to preview changes.
 
 ---
 
@@ -155,7 +122,7 @@ See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
 
 - **Manifest V3** (Chrome / Edge compatible)
 - **HTML** — Semantic popup structure
-- **CSS** — Custom dark theme, no frameworks
+- **CSS** — Adaptive light and dark themes, no frameworks
 - **JavaScript** — Vanilla, no dependencies
 - **No build step** — Load directly as unpacked extension
 
@@ -175,8 +142,8 @@ See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
 
 ## Links
 
-- Website: [eclyzer.net](https://eclyzer.net)
-- Eclyzer AI: [ai.eclyzer.net](https://ai.eclyzer.net)
+- Website: [eclyzer.com](https://eclyzer.com)
+- Eclyzer AI: [ai.eclyzer.com](https://ai.eclyzer.com)
 - GitHub: [github.com/hisyamnurx](https://github.com/hisyamnurx)
 
 ---
