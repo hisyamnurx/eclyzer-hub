@@ -1,37 +1,44 @@
+@font-face {
+  font-family: Manrope;
+  src: url("fonts/manrope.woff2") format("woff2");
+  font-weight: 200 800;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light dark;
-  font-family: "Segoe UI", system-ui, sans-serif;
-  --background: #edf2f8;
+  font-family: Manrope, system-ui, sans-serif;
+  --background: #dce7f2;
   --surface: #fbfdff;
   --line: #d1dae8;
   --text: #122139;
   --muted: #4c607a;
   --hover: #e6effd;
-  --icon: #245ba7;
-  --focus: #165cba;
-  --featured: #173b6b;
-  --featured-hover: #214d86;
+  --icon: #005bd8;
+  --focus: #0066ff;
+  --featured: #005be5;
+  --featured-hover: #0052cc;
   --featured-text: #fff;
   --featured-muted: #d6e7ff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0e1725;
-    --surface: #152234;
-    --line: #2c3c54;
-    --text: #f1f6ff;
-    --muted: #a8bad4;
-    --hover: #1d304a;
-    --icon: #a8cbff;
-    --focus: #a3cbff;
+    --background: #0a0a0b;
+    --surface: #131417;
+    --line: #303239;
+    --text: #ececee;
+    --muted: #a3a6af;
+    --hover: #242630;
+    --icon: #81b5ff;
+    --focus: #81b5ff;
   }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
 
 body {
-  width: min(360px, 100vw);
+  width: 360px;
   margin: 0;
   padding: 16px;
   background: var(--background);

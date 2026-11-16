@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Eclyzer Hub",
   "description": "Open eclyzer.com and Eclyzer services from your browser toolbar.",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "action": {
     "default_popup": "popup.html",
     "default_title": "Eclyzer Hub",

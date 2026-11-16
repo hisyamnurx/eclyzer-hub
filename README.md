@@ -92,7 +92,7 @@ You can use any image editor or online tool like [Favicon.io](https://favicon.io
 2. Create a ZIP of the project folder:
    ```
    # Include these files:
-   manifest.json, popup.html, popup.css, popup.js, icons/
+   manifest.json, popup.html, popup.css, popup.js, icons/, fonts/
    ```
 3. **Do NOT include**: `README.md`, `PRIVACY.md`, `store-assets/`, `ECLYZER_HUB_EXTENSION_PRD.md`, `.git/`
 4. Go to the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole)
